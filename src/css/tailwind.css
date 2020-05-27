@@ -1,0 +1,32 @@
+@tailwind base;
+.title{
+    @apply text-2xl  font-medium uppercase
+}
+.subtitle{
+    @apply text-xl font-bold uppercase
+}
+.subtitle2{
+    @apply text-xs  font-bold uppercase
+}
+
+.btn-menu{ 
+    @apply cursor-pointer  font-bold text-xs text-gray-800 mr-3 px-1 py-1
+}
+.social-icon{ 
+    @apply h-3 w-3 mr-2 cursor-pointer
+}
+.header-icon{ 
+    @apply h-3 w-3 mr-2 cursor-pointer
+}
+
+.container-icon-welcome{
+     @apply p-8 flex justify-center items-center border-2 border-solid border-white rounded
+}
+.text-more{
+    @apply  mt-2 text-xs text-left  font-bold cursor-pointer
+}
+
+/*17a59a*/
+@tailwind components;
+
+@tailwind utilities;
